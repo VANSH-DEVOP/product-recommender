@@ -1,0 +1,72 @@
+export const products = [
+  {
+    id: 1,
+    name: "iPhone 13",
+    brand: "Apple",
+    category: "Phone",
+    price: 699,
+  },
+  {
+    id: 2,
+    name: "Samsung Galaxy A55",
+    brand: "Samsung",
+    category: "Phone",
+    price: 449,
+  },
+  {
+    id: 3,
+    name: "Google Pixel 7a",
+    brand: "Google",
+    category: "Phone",
+    price: 499,
+  },
+  {
+    id: 4,
+    name: "OnePlus Nord 4",
+    brand: "OnePlus",
+    category: "Phone",
+    price: 429,
+  },
+  {
+    id: 5,
+    name: "MacBook Air M2",
+    brand: "Apple",
+    category: "Laptop",
+    price: 1099,
+  },
+  {
+    id: 6,
+    name: "Dell Inspiron 15",
+    brand: "Dell",
+    category: "Laptop",
+    price: 799,
+  },
+  {
+    id: 7,
+    name: "HP Pavilion",
+    brand: "HP",
+    category: "Laptop",
+    price: 749,
+  },
+  {
+    id: 8,
+    name: "iPad Air",
+    brand: "Apple",
+    category: "Tablet",
+    price: 599,
+  },
+  {
+    id: 9,
+    name: "Samsung Galaxy Tab S9 FE",
+    brand: "Samsung",
+    category: "Tablet",
+    price: 499,
+  },
+  {
+    id: 10,
+    name: "Sony WH-1000XM5",
+    brand: "Sony",
+    category: "Headphones",
+    price: 349,
+  }
+];
