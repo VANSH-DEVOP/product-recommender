@@ -13,8 +13,9 @@ function App() {
   const handleSearch = async (query) => {
     setLoading(true);
 
+    const API_URL = "https://product-recommender-81fp.onrender.com";
     try {
-      const response = await axios.post("/api/recommend", {
+      const response = await axios.post(`${API_URL}/api/recommend`, {
         query,
         products,
       });
