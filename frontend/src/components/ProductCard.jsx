@@ -1,3 +1,4 @@
+import React from "react";
 function ProductCard({ product, reason }) {
   return (
     <div
